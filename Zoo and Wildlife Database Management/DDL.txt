@@ -1,0 +1,161 @@
+CREATE SCHEMA Wildlife_Db;
+
+ALTER DATABASE postgres SET SEARCH_PATH TO Wildlife_Db;
+
+CREATE TABLE State (
+    StateID INT PRIMARY KEY,
+    StateName VARCHAR(255)
+);
+
+CREATE TABLE LocationType (
+    LocationTypeID INT PRIMARY KEY,
+    TypeName VARCHAR(255)
+);
+
+CREATE TABLE Location (
+    LocationID INT PRIMARY KEY,
+    Name VARCHAR(255),
+    LocationTypeID INT,
+    StateID INT,
+    LocationSize DECIMAL(10,2),
+    EstablishmentDate DATE,
+    ContactName VARCHAR(255),
+    ContactEmail VARCHAR(255),
+    ContactPhone VARCHAR(255),
+    FOREIGN KEY (LocationTypeID) REFERENCES LocationType(LocationTypeID),
+    FOREIGN KEY (StateID) REFERENCES State(StateID)
+);
+
+CREATE TABLE ConservationStatus (
+    ConservationStatusID INT PRIMARY KEY,
+    ConservationStatus VARCHAR(255)
+);
+
+CREATE TABLE Animal (
+    AnimalID INT PRIMARY KEY,
+    Species VARCHAR(255),
+    ScientificName VARCHAR(255),
+    Diet VARCHAR(255),
+    AverageLifespan INT,
+    ConservationStatusID INT,
+    Weight DECIMAL(10,2),
+    Size VARCHAR(255),
+    Habitat VARCHAR(255),
+    FOREIGN KEY (ConservationStatusID) REFERENCES ConservationStatus(ConservationStatusID)
+);
+
+
+
+
+CREATE TABLE AnimalHabitat (
+    AnimalHabitatID INT PRIMARY KEY,
+    AnimalID INT,
+    LocationID INT,
+    Count INT,
+    DateAcquired DATE,
+    FOREIGN KEY (AnimalID) REFERENCES Animal(AnimalID),
+    FOREIGN KEY (LocationID) REFERENCES Location(LocationID)
+);
+
+CREATE TABLE ExtinctSpecies (
+    ExtinctSpeciesID INT PRIMARY KEY,
+    CommonName VARCHAR(255),
+    ScientificName VARCHAR(255),
+    Species VARCHAR(255),
+    CauseOfExtinction VARCHAR(255),
+    LastSightingDate DATE,
+    HistoricalRange VARCHAR(255),
+    Description TEXT
+);
+
+CREATE TABLE LocationFacilities (
+    FacilityID INT PRIMARY KEY,
+    LocationID INT,
+    FacilityName VARCHAR(255),
+    FacilityDescription TEXT,
+    FOREIGN KEY (LocationID) REFERENCES Location(LocationID)
+);
+
+CREATE TABLE ExpenditureArea (
+    ExpenditureAreaID INT PRIMARY KEY,
+    AreaName VARCHAR(255)
+);
+
+
+CREATE TABLE WildlifeHomeFunding (
+    FundingID INT PRIMARY KEY,
+    LocationID INT,
+    TotalFunding DECIMAL(10,2),
+    Date DATE,
+    FOREIGN KEY (LocationID) REFERENCES Location(LocationID)
+);
+
+
+
+CREATE TABLE Resources (
+    resource_id INT PRIMARY KEY,
+    location_id INT NOT NULL,
+    resource_type VARCHAR(255) NOT NULL,
+    quantity INT NOT NULL,
+    resource_date DATE NOT NULL,
+    FOREIGN KEY (location_id) REFERENCES Location (LocationId)
+);
+
+
+
+
+CREATE TABLE AnimalHealthRecords (
+    HealthRecordID INT PRIMARY KEY,
+    AnimalID INT,
+    LocationID INT,
+    Date DATE,
+    HealthIssue VARCHAR(255),
+    Diagnosis VARCHAR(255),
+    Treatment TEXT,
+    VeterinarianID INT,
+    Count INT,
+	FOREIGN KEY (VeterinarianID) REFERENCES Veterinarian(VeterinarianID),
+    FOREIGN KEY (AnimalID) REFERENCES Animal(AnimalID),
+    FOREIGN KEY (LocationID) REFERENCES Location(LocationID)
+);
+
+
+
+CREATE TABLE Veterinarian (
+    VeterinarianID INT PRIMARY KEY,
+    VeterinarianName VARCHAR(255),
+    Qualification VARCHAR(255),
+    Experience INT,
+    ContactEmail VARCHAR(255),
+    ContactPhone VARCHAR(255)
+);
+
+
+CREATE TABLE AnimalMigrations (
+    MigrationID INT PRIMARY KEY,
+    AnimalID INT,
+    FromLocationID INT,
+    ToLocationID INT,
+    MigrationDate DATE,
+    Reason VARCHAR(255),
+    Details TEXT,
+    Count INT,
+    FOREIGN KEY (AnimalID) REFERENCES Animal(AnimalID),
+    FOREIGN KEY (FromLocationID) REFERENCES Location(LocationID),
+    FOREIGN KEY (ToLocationID) REFERENCES Location(LocationID)
+);
+
+
+
+
+
+
+CREATE TABLE Expenditure (
+ExpenditureID INT PRIMARY KEY,
+LocationID INT,
+Date date,
+ExpenditureAreaID INT ,
+Amount DECIMAL (10,2),
+FOREIGN KEY (LocationID) REFERENCES Location(LocationID),
+FOREIGN KEY (ExpenditureAreaID) REFERENCES ExpenditureArea(ExpenditureAreaID)
+);

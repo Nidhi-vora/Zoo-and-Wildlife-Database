@@ -1,0 +1,51 @@
+"healthrecordid","animalid","locationid","date","healthissue","diagnosis","treatment","veterinarianid","count"
+1,5,10,"2022-01-05","Fever","High temperature observed","Prescribed medication and rest",15,20
+2,15,25,"2022-02-15","Digestive Issues","Diarrhea and vomiting","Administered oral medication",35,25
+3,25,35,"2022-03-20","Respiratory Infection","Coughing and sneezing","Prescribed antibiotics",75,15
+4,35,45,"2022-04-10","Injury","Fractured limb","Performed surgery and applied cast",120,10
+5,45,55,"2022-05-22","Skin Condition","Itching and redness","Prescribed topical treatment",180,30
+6,55,5,"2022-06-30","Eye Infection","Redness and discharge","Administered eye drops",25,22
+7,10,20,"2022-07-08","Dental Issues","Tooth decay","Performed dental cleaning",95,18
+8,20,30,"2022-08-14","Parasitic Infestation","Ticks and fleas","Administered anti-parasitic treatment",50,12
+9,30,40,"2022-09-01","Joint Pain","Limping and discomfort","Prescribed pain medication",80,28
+10,40,50,"2022-10-18","Digestive Issues","Constipation","Provided dietary recommendations",150,15
+11,50,60,"2022-11-02","Injury","Bruises and swelling","Applied cold compress",60,20
+12,60,10,"2022-12-10","Respiratory Infection","Labored breathing","Prescribed respiratory medication",25,28
+13,6,12,"2021-01-08","Fever","High temperature observed","Prescribed medication and rest",18,22
+14,16,27,"2021-02-14","Digestive Issues","Diarrhea and vomiting","Administered oral medication",40,27
+15,26,37,"2021-03-25","Respiratory Infection","Coughing and sneezing","Prescribed antibiotics",65,17
+16,36,47,"2021-04-03","Injury","Fractured limb","Performed surgery and applied cast",110,12
+17,46,57,"2021-05-12","Skin Condition","Itching and redness","Prescribed topical treatment",160,28
+18,56,7,"2021-06-18","Eye Infection","Redness and discharge","Administered eye drops",22,20
+19,11,21,"2021-07-22","Dental Issues","Tooth decay","Performed dental cleaning",85,25
+20,21,31,"2021-08-30","Parasitic Infestation","Ticks and fleas","Administered anti-parasitic treatment",55,15
+21,31,41,"2021-09-05","Joint Pain","Limping and discomfort","Prescribed pain medication",75,28
+22,41,51,"2021-10-10","Digestive Issues","Constipation","Provided dietary recommendations",140,18
+23,51,61,"2021-11-15","Injury","Bruises and swelling","Applied cold compress",68,25
+24,58,11,"2021-12-20","Respiratory Infection","Labored breathing","Prescribed respiratory medication",30,22
+25,7,14,"2020-01-02","Fever","High temperature observed","Prescribed medication and rest",16,28
+26,17,29,"2020-02-08","Digestive Issues","Diarrhea and vomiting","Administered oral medication",38,30
+27,27,39,"2020-03-15","Respiratory Infection","Coughing and sneezing","Prescribed antibiotics",60,22
+28,37,49,"2020-04-18","Injury","Fractured limb","Performed surgery and applied cast",105,15
+29,47,59,"2020-05-25","Skin Condition","Itching and redness","Prescribed topical treatment",155,25
+30,57,9,"2020-06-30","Eye Infection","Redness and discharge","Administered eye drops",20,20
+31,1,6,"2020-07-05","Dental Issues","Tooth decay","Performed dental cleaning",78,18
+32,11,16,"2020-08-15","Parasitic Infestation","Ticks and fleas","Administered anti-parasitic treatment",43,28
+33,21,26,"2020-09-20","Joint Pain","Limping and discomfort","Prescribed pain medication",60,20
+34,31,36,"2020-10-10","Digestive Issues","Constipation","Provided dietary recommendations",110,15
+35,41,46,"2020-11-22","Injury","Bruises and swelling","Applied cold compress",48,25
+36,51,56,"2020-12-30","Respiratory Infection","Labored breathing","Prescribed respiratory medication",20,30
+37,2,7,"2019-01-08","Fever","High temperature observed","Prescribed medication and rest",14,22
+38,12,17,"2019-02-14","Digestive Issues","Diarrhea and vomiting","Administered oral medication",36,27
+39,22,27,"2019-03-25","Respiratory Infection","Coughing and sneezing","Prescribed antibiotics",58,17
+40,32,37,"2019-04-18","Injury","Fractured limb","Performed surgery and applied cast",102,12
+41,42,47,"2019-05-02","Skin Condition","Itching and redness","Prescribed topical treatment",150,28
+42,52,57,"2019-06-10","Eye Infection","Redness and discharge","Administered eye drops",18,20
+43,3,8,"2018-01-08","Dental Issues","Tooth decay","Performed dental cleaning",80,25
+44,13,18,"2018-02-14","Parasitic Infestation","Ticks and fleas","Administered anti-parasitic treatment",50,15
+45,23,28,"2018-03-25","Joint Pain","Limping and discomfort","Prescribed pain medication",70,28
+46,33,38,"2018-04-03","Digestive Issues","Constipation","Provided dietary recommendations",120,18
+47,43,48,"2018-05-12","Injury","Bruises and swelling","Applied cold compress",58,25
+48,53,58,"2018-06-18","Respiratory Infection","Labored breathing","Prescribed respiratory medication",25,22
+49,4,9,"2018-07-22","Fever","High temperature observed","Prescribed medication and rest",12,28
+50,14,19,"2018-08-30","Digestive Issues","Diarrhea and vomiting","Administered oral medication",34,30

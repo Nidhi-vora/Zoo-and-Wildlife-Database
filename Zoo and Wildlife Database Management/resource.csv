@@ -1,0 +1,101 @@
+resource_id,location_id,resource_type,quantity,resource_date
+1,15,Fencing Material,100,2022-11-15
+2,22,Animal Feed - Herbivore Pellets,500,2022-10-20
+3,8,Veterinary Supplies - Surgical Instruments,1,2021-08-05
+4,45,Enrichment Items - Puzzle Feeders,10,2021-05-12
+5,60,Staff Training Workshop Fees,3,2020-09-30
+6,35,Visitor Center Display Materials,200,2020-07-22
+7,12,Security Measures - Surveillance Equipment,5,2019-12-10
+8,55,Research Equipment - GPS Tracking Collars,8,2019-11-01
+9,28,Transportation - Wildlife Transport Van,1,2019-10-18
+10,50,Waste Management - Composting System,1,2018-06-05
+11,18,Fencing Material,150,2018-04-10
+12,40,Animal Feed - Carnivore Mix,300,2018-02-28
+13,5,Veterinary Supplies - Vaccines,2,2017-09-15
+14,65,Enrichment Items - Climbing Structures,15,2017-07-02
+15,30,Staff Training Workshop Fees,5,2016-12-20
+16,22,Visitor Center Display Materials,250,2016-10-08
+17,8,Security Measures - Access Control System,3,2016-05-14
+18,55,Research Equipment - Binoculars,10,2015-11-30
+19,28,Transportation - ATV for Rangers,2,2015-09-12
+20,50,Waste Management - Recycling Bins,50,2015-07-01
+21,10,Fencing Material,120,2014-03-25
+22,42,Animal Feed - Omnivore Mix,400,2014-01-18
+23,3,Veterinary Supplies - X-ray Machine,1,2013-11-05
+24,58,Enrichment Items - Water Features,8,2013-09-22
+25,25,Staff Training Workshop Fees,4,2013-08-10
+26,38,Visitor Center Display Materials,180,2012-06-30
+27,14,Security Measures - Night Vision Goggles,2,2012-04-15
+28,60,Research Equipment - Microscopes,6,2012-02-28
+29,32,Transportation - Helicopter for Aerial Surveys,1,2011-09-20
+30,48,Waste Management - Biohazard Bins,15,2011-07-12
+31,20,Fencing Material,80,2010-12-05
+32,36,Animal Feed - Insectivore Pellets,300,2010-10-18
+33,7,Veterinary Supplies - Anesthesia Machine,1,2009-11-30
+34,53,Enrichment Items - Sensory Toys,12,2009-09-15
+35,27,Staff Training Workshop Fees,6,2008-06-25
+36,46,Visitor Center Display Materials,220,2008-04-08
+37,11,Security Measures - Electric Fencing,4,2007-11-14
+38,59,Research Equipment - Camera Traps,20,2007-09-01
+39,24,Transportation - Boat for Aquatic Section,1,2006-10-22
+40,49,Waste Management - Incinerator,1,2006-08-05
+41,17,Fencing Material,100,2005-12-30
+42,33,Animal Feed - Rodent Diet,200,2005-10-15
+43,6,Veterinary Supplies - Ultrasound Machine,1,2004-09-28
+44,54,Enrichment Items - Puzzle Feeders,8,2004-07-10
+45,29,Staff Training Workshop Fees,3,2004-05-22
+46,41,Visitor Center Display Materials,190,2003-08-01
+47,13,Security Measures - Motion Sensors,6,2003-06-14
+48,57,Research Equipment - DNA Sequencer,1,2002-12-20
+49,26,Transportation - 4x4 Vehicles,3,2002-10-08
+50,47,Waste Management - Composting System,1,2001-09-18
+51,19,Fencing Material,130,2001-05-05
+52,37,Animal Feed - Pellet Mix,350,2000-11-22
+53,9,Veterinary Supplies - Surgical Masks,2,2000-09-10
+54,62,Enrichment Items - Climbing Structures,12,1999-08-02
+55,31,Staff Training Workshop Fees,5,1999-06-15
+56,16,Visitor Center Display Materials,210,1998-10-30
+57,43,Security Measures - Patrol Vehicles,2,1998-09-12
+58,56,Research Equipment - Telemetry Equipment,5,1997-12-28
+59,23,Transportation - Bicycle Fleet,10,1997-10-18
+60,51,Waste Management - Recycling Bins,40,1997-07-01
+61,21,Fencing Material,110,1996-03-15
+62,39,Animal Feed - Herbivore Mix,300,1996-01-28
+63,4,Veterinary Supplies - Sterilization Equipment,1,1995-09-05
+64,64,Enrichment Items - Water Features,10,1995-07-18
+65,36,Staff Training Workshop Fees,4,1994-11-30
+66,10,Visitor Center Display Materials,180,1994-09-12
+67,2,Security Measures - Surveillance Cameras,4,1993-08-22
+68,58,Research Equipment - GPS Tracking Collars,8,1993-06-05
+69,25,Transportation - Wildlife Transport Van,1,1992-12-20
+70,50,Waste Management - Incinerator,1,1992-10-08
+71,16,Fencing Material,120,1991-11-22
+72,44,Animal Feed - Carnivore Mix,400,1991-09-10
+73,5,Veterinary Supplies - Vaccines,2,1990-08-02
+74,63,Enrichment Items - Climbing Structures,15,1990-06-15
+75,30,Staff Training Workshop Fees,5,1989-10-30
+76,20,Visitor Center Display Materials,250,1989-09-12
+77,8,Security Measures - Access Control System,3,1988-07-01
+78,57,Research Equipment - Binoculars,10,1988-03-15
+79,28,Transportation - ATV for Rangers,2,1987-12-28
+80,51,Waste Management - Recycling Bins,50,1987-10-18
+81,11,Fencing Material,150,1986-09-05
+82,42,Animal Feed - Omnivore Mix,400,1986-07-18
+83,3,Veterinary Supplies - X-ray Machine,1,1985-11-30
+84,58,Enrichment Items - Sensory Toys,12,1985-09-12
+85,25,Staff Training Workshop Fees,6,1984-08-22
+86,38,Visitor Center Display Materials,180,1984-06-05
+87,14,Security Measures - Night Vision Goggles,2,1983-12-20
+88,60,Research Equipment - Microscopes,6,1983-10-08
+89,32,Transportation - Helicopter for Aerial Surveys,1,1982-09-18
+90,48,Waste Management - Biohazard Bins,15,1982-07-01
+91,17,Fencing Material,80,1981-03-25
+92,36,Animal Feed - Insectivore Pellets,300,1981-01-18
+93,7,Veterinary Supplies - Anesthesia Machine,1,1980-11-05
+94,53,Enrichment Items - Puzzle Feeders,8,1980-09-28
+95,27,Staff Training Workshop Fees,4,1979-08-10
+96,46,Visitor Center Display Materials,220,1979-06-30
+97,11,Security Measures - Electric Fencing,4,1978-11-14
+98,59,Research Equipment - Camera Traps,20,1978-09-01
+99,24,Transportation - Boat for Aquatic Section,1,1977-10-22
+100,49,Waste Management - Incinerator,1,1977-08-05
